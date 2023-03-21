@@ -37,7 +37,7 @@ public class RequestHeaderServlet extends HttpServlet {
         System.out.println("--- Headers - end ---");
         System.out.println();
     }
-
+    //StartLine 정보
     private void printStartLine(HttpServletRequest request) {
         System.out.println("--- REQUEST-LINE - start ---");
 
@@ -81,7 +81,7 @@ public class RequestHeaderServlet extends HttpServlet {
         System.out.println("--- Header 편의 조회 end ---");
         System.out.println();
     }
-
+    // 기타 정보
     private void printEtc(HttpServletRequest request) {
         System.out.println("--- 기타 조회 start ---");
         System.out.println("[Remote 정보]");                                          //요청이 온 곳에 대한 정보
